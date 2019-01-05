@@ -137,7 +137,8 @@ li.current{
 
 /*轮播*/
 .floatdiv{
-    width:449px;height: 500px;
+    width:238px;
+    height: 550px;
     float: left;
     overflow: hidden;
 }
