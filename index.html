@@ -1,214 +1,560 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
-	<title>中智信元</title>
-		<meta charset="utf-8">
-		<link rel="stylesheet" href="./样式.css" type="text/css">
-	</head>
-	<body>
-		<!-- logo开始 -->
-		<div class="header">
-			<div class="logo">
-				<img src="../image/logo.png" alt="logo">
+	<meta charset="UTF-8">
+	<title>大作业</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<style type="text/css">
+	.floats{
+		margin-top: 2px;
+	    display: block;
+	    float: left;
+	    margin-left: 400px;
+	}
+	.newfloat{
+		margin-top: 2px;
+	    display: block;
+	    float: left;
+	    margin-left: 340px;
+	}
+	.div1{
+		width: 20px;
+		height: 20px;
+		float: left;
+		margin-left: 15px;
+	}
+	.a1{
+		text-decoration: none;
+		width: 30px;
+		height: 12px;
+		color: grey;
+		font-size: 12px;
+		float: left;
+		margin-top: 5px;
+		margin-left: 15px;
+	}
+	.a2{
+		text-decoration: none;
+		width: 60px;
+		height: 12px;
+		color: grey;
+		font-size: 12px;
+		float: left;
+		margin-top: 5px;
+		margin-left: 15px;
+	}
+	.a3{
+		text-decoration: none;
+		height: 14px;
+		color: red;
+		font-size: 12px;
+		line-height: 14px;
+		margin-top: 2px;
+	}
+	</style>
+</head>
+<body onload="star()">
+	<div class="boxx" id="cover">
+		<div style="height: 30px">
+			<p class="bang">帮5买，享帮帮</p>
+			<div style="width: 20px;height: 20px;float: left;margin-left: 480px;margin-top: 1px;"><img src="img/xiaotu_02.gif"></div>
+			<div class="div1"><img src="img/xiaotu_03.gif"></div>
+			<div class="div1"><img src="img/xiaotu_04.gif"></div>
+			<a href="" class="a1">登录</a>
+			<a href="" class="a1">注册</a>
+			<div style="width: 60px;height: 20px;float: left;background: url(img/youxiang_04.gif) no-repeat 5px 5px;">
+				<a href="" style="text-decoration: none;width: 30px;height: 12px;color: grey;font-size: 12px;float: left;margin-top: 5px;margin-left: 25px;">消息</a>
 			</div>
-			<ul class="shouye">
-					<li>
-						<a href="" >首页</a>
-					</li>
-					<li>
-						<a href="" >关于我们</a>
-					</li>
-					<li>
-						<a href="" >中智服务</a>
-					</li>
-					<li>
-						<a href="" >解决方案</a>
-					</li>
-					<li>
-						<a href="" >最新资讯</a>
-					</li>
-					<li style="background:none;float: left;height: 45px;padding:0 0 0 30px;line-height: 45px;">
-						<a href="" >联系我们</a>
-					</li>
-			</ul>
-			<!-- logo结束 -->
-			<!-- 图片开始 -->
-			<div class="tupian">
+			<div style="width: 90px;height: 20px;float: left;background: url(img/dingdan.jpg) no-repeat 5px 5px;">
+				<a href="" style="text-decoration: none;width: 60px;height: 12px;color: grey;font-size: 12px;float: left;margin-top: 5px;margin-left: 25px;">我的订单</a>
 			</div>
-			<!-- 图片结束 -->
-			<!-- 服务开始 -->
-			<div class="fuwu">
-					<h1>服务项目</h1>
-					<p style="margin-bottom:64px;">SERVICE ITEMS</P>
-						<ul>
-							<li style="background: url(../image/yuan01.png) no-repeat center top;">
-								<div class="tubiao1">
-									<h1>工商代理</h1>
-									<p>公司注册</p>
-									<p>公司注册地址</p>
-									<p>分公司注册</p>
-									<p>外资注册</p>
-									<p>股权变更</p>
-									<p>公司注销</p>
-								</div>
-							</li>
-							<li style="background: url(../image/yuan02.png) no-repeat center top;">
-								<div class="tubiao1">
-									<h1>理财代理</h1>
-									<p>代理记账</p>
-									<p>税务筹划</p>
-									<p>审计服务</p>
-								</div>
-							</li>
-							<li style="background: url(../image/yuan03.png) no-repeat center top;">
-								<div class="tubiao1">
-									<h1>资质服务</h1>
-									<p>各类许可证</p>
-									<p>资质审平</p>
-									<p>高新企业</p>
-									<p>商标专利</p>
-								</div>
-							</li>
-							<li style="background: url(../image/yuan04.png) no-repeat center top;">
-								<div class="tubiao1">
-									<h1>特色服务</h1>
-									<p> </p>
-								</div>
-							</li>
-							<li style="background: url(../image/yuan05.png) no-repeat center top;">
-								<div class="tubiao2">
-									<h1>特色服务</h1>
-								</div>
-							</li>
-							<li style="background: url(../image/yuan06.png) no-repeat center top;">
-								<div class="tubiao2">
-									<h1>分办公室租赁</h1>
-								</div>
-							</li>
-							<li style="background: url(../image/yuan07.png) no-repeat center top;">
-								<div class="tubiao2">
-									<h1>营业执照转让</h1>
-								</div>
-							</li>
-							<li style="background: url(../image/yuan08.png) no-repeat center top;">
-								<div class="tubiao2">
-									<h1>法律服务</h1>
-								</div>
-							</li>
+			<a href="" class="a2">我的收藏</a>
+			<a href="" class="a2">帮钻兑换</a>
+			<div style="width: 80px;height: 20px;float: left;background: url(img/tp-my-phone.png) no-repeat 5px 5px;">
+				<a href="" class="a2">手机版</a>
+			</div>
+			<a href="" class="a2">帮5淘</a>
+			<a href="" class="a2">客户服务</a>
+			<div style="width: 80px;height: 20px;float: left;background: url(img/gouwuche.jpg) no-repeat 5px 5px;">
+				<a href="" class="a2">&nbsp;购物车</a>
+			</div>
+		</div>
+
+		<div style="height: 70px;margin-top: 15px;">
+			<img style="margin-left: 70px;float: left;" src="img/logo_03.jpg" alt="">
+			<div style="width: 500px;height: 41px;float: left;margin-left: 100px;">
+				<input style="width: 500px;height: 40px;margin-left: 100px;border-color: red;" type="" name="" placeholder=" 输入商品网址或关键字，直通全网，快速帮5购!">
+			</div>
+			<div style="width: 85px;height: 46px;background-color: red;float: left;margin-left: 103px;text-decoration: none;text-align: center;">
+				<a href="" style="text-decoration: none;color: white;line-height: 40px;">搜全网</a>
+			</div>
+			<div style="width: 85px;height: 40px;float: left;margin-left: 90px;border: 1px grey solid">
+				<img src="img/erji_02.gif" style="margin-left: 30px;">
+				<p style="width: 85px;height: 13px;margin-top: 6px;color: grey;font-size: 12px">400-085-0505</p>
+			</div>
+			<div style="width: 85px;height: 40px;float: left;margin-left: 0px;border: 1px grey solid">
+				<img src="img/youxiang_04.gif" style="margin-left: 26px;">
+				<p style="width: 85px;height: 13px;margin-top: 6px;color: grey;font-size: 12px">mc@b5m.com</p>
+			</div>
+			<div style="width: 85px;height: 40px;float: left;margin-left: 0px;border: 1px grey solid;background-color: red">
+				<p style="text-align: center;font-size: 15px;color: white;margin-top: 10px;">?常见问题</p>
+			</div>
+			<div style="width: 600px;height: 20px;float: left;margin-top: 6px;margin-left: 220px;color: grey">
+				<a href class="a3">洗发护发 |</a> 
+				<a href class="a3"style="color: grey;">日本纸尿裤 |</a> 
+				<a href class="a3"style="color: grey;">身体乳 |</a> 
+				<a href class="a3"style="color: grey;">内衣文胸 |</a> 
+				<a href class="a3"style="color: grey;">iPhone 6s |</a>
+				<a href class="a3"style="color: grey;">iPad Air2 |</a>
+				<a href class="a3"style="color: grey;">牛仔裤 |</a>
+				<a href class="a3"style="color: grey;">奶粉 |</a>
+				<a href class="a3"style="color: grey;">防晒霜 |</a> 
+				<a href class="a3"style="color: grey;">伞 |</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="hot" style="width: 100%;height: 50px;border-bottom: 1px red solid">
+		<div style="float: left;width: 170px;height: 50px;margin-left: 70px;background-color: red;color: white;font-size: 18px;text-align: center;line-height: 50px">全部商品分类</div>
+		<li style="margin-left: 50px;"><a href="">帮5赚</a></li>
+		<li><a href="">帮韩品</a></li>
+		<li><a href="">超划算</a></li>
+		<li><a href="">品牌货栈</a></li>
+		<li><a href="">韩国馆</a></li>
+		<li><a href="">帮社区</a></li>
+		<li style="background: url(img/hot.gif) no-repeat 60px 2px;"><a href="">1元兑奖</a></li>
+	</div>
+	
+	<div style="width: 100%;height: 550px;background-color: #f8f7f6;">
+		<div style="width: 170px;margin-left: 70px;float: left;">
+			<div style="width: 25px;height: 425px;background-color: #4c4c4a;float: left;font-size: 16px;color: red;">当前搜索电商全网</div>
+			<div class='longlist' style="width: 145px;height: 425px;float: left;background-color: white;border-bottom: 1px red solid;">
+				<ul>
+					<li>手机</li>
+					<li>电脑</li>
+					<li>家电</li>
+					<li>园艺</li>
+					<li>彩妆</li>
+					<li>男装</li>
+					<li>女包</li>
+					<li>运动</li>
+					<li>儿童</li>
+					<li>乐器</li>
+					<li>保健</li>
+					<li>果蔬</li>
+					<li>文艺</li>
+				</ul>
+				<ul>
+					<li>数码</li>
+					<li>网络</li>
+					<li>厨卫</li>
+					<li>家具</li>
+					<li>面部</li>
+					<li>女装</li>
+					<li>男包</li>
+					<li>户外</li>
+					<li>婴儿</li>
+					<li>家宠</li>
+					<li>理疗</li>
+					<li>礼品</li>
+					<li>生活</li>
+				</ul>
+				<ul>
+					<li>影音</li>
+					<li>办公</li>
+					<li>生活</li>
+					<li>家纺</li>
+					<li>身体</li>
+					<li>内衣</li>
+					<li>女鞋</li>
+					<li>装备</li>
+					<li>食品</li>
+					<li>收藏</li>
+					<li>药品</li>
+					<li>粮油</li>
+					<li>收藏</li>
+				</ul>
+				<ul>
+					<li>配件</li>
+					<li>打印</li>
+					<li>个户</li>
+					<li>家纺</li>
+					<li>香水</li>
+					<li>其他</li>
+					<li>男鞋</li>
+					<li>服饰</li>
+					<li>玩具</li>
+					<li>鲜花</li>
+					<li>眼镜</li>
+					<li>特产</li>
+					<li>教育</li>
+				</ul>
+			</div>
+			<div style="width: 170px;height: 124px;float: left;background-color: white">
+				<p style="width: 170px;height: 41px;margin:0;float: left;color: grey;text-align: center;font-size: 12px;line-height: 41px;background: url(img/dd_03.jpg) no-repeat 2px 6px;">什么是帮5购</p>
+				<p style="width: 170px;height: 41px;margin: 0;float: left;color: grey;text-align: center;font-size: 12px;line-height: 41px;background: url(img/dd_06.jpg) no-repeat 2px 6px;">帮5购提供什么服务</p>
+				<p style="width: 170px;height: 41px;margin: 0;float: left;color: grey;text-align: center;font-size: 12px;line-height: 41px;background: url(img/dd_08.jpg) no-repeat 2px 6px;">如何开通帮5购服务</p>
+			</div>
+		</div>
+		<div style="width: 810px;height: 550px;float: left;">
+			<div id="box" class="box">
+					<div class="inner">
+						<ul class="lun">
+							<li><a href="#"><img src="img/bann1.jpeg" alt=""></a></li>
+				            <li><a href="#"><img src="img/bann2.jpeg" alt=""></a></li>
+				            <li><a href="#"><img src="img/bann3.jpeg" alt=""></a></li>
+				            <li><a href="#"><img src="img/bann4.jpeg" alt=""></a></li>
+				            <li><a href="#"><img src="img/bann5.jpeg" alt=""></a></li>
+				            <li><a href="#"><img src="img/bann6.png" alt=""></a></li>
 						</ul>
-			</div>
-			<!-- 服务结束 -->
-			<!-- 解决开始 -->
-			<div class="jieju">
-				<div class="jieju1">
-					<h1>解决方案</h1>
-					<p>SOLUTION</P>
-				</div>
-					<div class="jieju2">
-						<img class="jiantou01" src="../image/jiantou.png" alt="箭头"/>
-						<img class="fuwutu" src="../image/tupian-02-01.png" alt="1"/>
-						<img class="fuwutu" src="../image/tupian-02-02.png" alt="2"/>
-						<img class="fuwutu" src="../image/tupian-02-03.png" alt="3"/>
-						<img class="fuwutu" src="../image/tupian-02-04.png" alt="4"/>
-						<img class="jiantou02" src="../image/jiantou02.png" alt="箭头"/>
+						<ol class="bar"></ol>
+						<div id="arr">
+			              <span id="left"><</span>
+			              <span id="right">></span>
+			        	</div>
 					</div>
 			</div>
-			<!-- 解决结束 -->
-			<!-- 资讯开始 -->
-			<div class="zixun">
-				<h1>最新资讯</h1>
-				<p>LATEST INFORMATION</p>
-				<div class="zixun1">
-					<img src="../image/zixun.png" alt="咨询"/>
-					<h1>交易明智&方便</h1>
-					<h2>TRANSACTION WISE & CONVENIENT</h2>
-					<p>要适应快速发展的差价合约市场，客户需要一个能让他们不用经纪商的介入就能分析实时报价、进行实时交易以及应用投资策略的平台。他们需要一个简单便捷的界面来管理他们的账户，并能轻松查看图标和报告。</p>
-					<a  href=""><img style="margin:0;margin-top:33px;" src="../image/zixun-liaojie.png" alt="了解更多"/>
-					</a>
-					<div class="zixun2">
-						<ul>
-							<li style="background:url(../image/xian.png) no-repeat center bottom;">为什么企业上市之路更加艰难？前期工作有哪些问题，不少企业卡在财务问题上…</li>
-							<li style="background:url(../image/xian.png) no-repeat center bottom;">为什么企业上市之路更加艰难？前期工作有哪些问题，不少企业卡在财务问题上…</li>
-							<li style="background:url(../image/xian.png) no-repeat center bottom;">为什么企业上市之路更加艰难？前期工作有哪些问题，不少企业卡在财务问题上…</li>
-							<li style="background:url(../image/xian.png) no-repeat center bottom;">为什么企业上市之路更加艰难？前期工作有哪些问题，不少企业卡在财务问题上…</li>
-							<li style="background:url(../image/xian.png) no-repeat center bottom;">为什么企业上市之路更加艰难？前期工作有哪些问题，不少企业卡在财务问题上…</li>
-							<li style="background:url(../image/xian.png) no-repeat center bottom;">为什么企业上市之路更加艰难？前期工作有哪些问题，不少企业卡在财务问题上…</li>
-						</ul>
-						<ul>
-							<li style="background:url(../image/xian.png) no-repeat center bottom;">为什么企业上市之路更加艰难？前期工作有哪些问题，不少企业卡在财务问题上…</li>
-							<li style="background:url(../image/xian.png) no-repeat center bottom;">为什么企业上市之路更加艰难？前期工作有哪些问题，不少企业卡在财务问题上…</li>
-							<li style="background:url(../image/xian.png) no-repeat center bottom;"> 为什么企业上市之路更加艰难？前期工作有哪些问题，不少企业卡在财务问题上…</li>
-							<li style="background:url(../image/xian.png) no-repeat center bottom;" >为什么企业上市之路更加艰难？前期工作有哪些问题，不少企业卡在财务问题上…</li>
-							<li>为什么企业上市之路更加艰难？前期工作有哪些问题，不少企业卡在财务问题上…</li>
-							<li>为什么企业上市之路更加艰难？前期工作有哪些问题，不少企业卡在财务问题上…</li>
-						</ul>
-					</div>
-				</div>
+			<div style="border-top: 1px red solid;width: 810px;height: 201px;">
+				<img src="img/1(1).jpg" style="float: left;">
+				<img src="img/2.jpg" style="float: left">
+				<img src="img/3(1).png" style="padding: 0px 0px 0px 0px">
+				<a href="html.html"><img src="img/qqq.png" style="padding: 0px 0px 0px 0px"></a>
 			</div>
-			<!-- 咨询结束 -->
-			<!-- 底部开始 -->
-			<div class="dibu">
-				<div class="dibu1">
-					<ul>
-						<li style="background:url(../image/dibu01.png) no-repeat 50px center;"><h1>资质认证</h1>
-						<p>服务商100%实名认证</p>
-						</li>
-						<li style="background:url(../image/dibu02.png) no-repeat 50px center;"><h1>支付安全</h1>
-						<p>明码标价支付及信息安全</p>
-						</li>
-						<li style="background:url(../image/dibu03.png) no-repeat 50px center;"><h1>保险赔付</h1>
-						<p>为您提供担保赔付</p>
-						</li>
-						<li style="background:url(../image/dibu04.png) no-repeat 50px center;"><h1>售后无忧</h1>
-						<p>服务出问题经理全程跟进</p>
-						</li>
-				</div>
+		</div>
+		<div style="width: 210px;height: 550px;float: left;background-color: yellow">
+			<div style="width: 210px;height: 40px;background-color: white;background: url(img/ico-notice.png) no-repeat 20px 10px;font-size: 16px;color: red;line-height: 40px;text-align: center;">
+				帮帮快讯&nbsp&nbsp>>
 			</div>
-			<!-- 底部结束 -->
-			<!-- 联系开始 -->
-			<div class="lianxi">
-				<div class="lianxi1">
-					<div class="lianxi2">
-						<ul>
-							<li><h1>中智信元</h1>
-								<p>加入我们</p>
-								<p>联系我们</p>
-								<p>最新动态</p>
-							</li>
-							<li><h1>订单服务</h1>
-								<p>支付方式</p>
-								<p>退款说明</p>
-								<p>购买流程</p>
-							</li>
-							<li><h1>售后服务</h1>
-								<p>在线问答</p>
-								<p>服务中心</p>
-								<p>售后政策</p>
-							</li>
-							<li><h1>常见问题</h1>
-								<p>新手帮助</p>
-								<p>支付帮助</p>
-								<p>开具发票</p>
-							</li>
-						</ul>
-					</div>
-					<img src="../image/erweima.png" alt="二维码"/>
-				</div>
-				<hr/>
+			<div id=scroll-box>
+			    <ul>
+			      <li>[公告] 帮购及VIP服务调整1</li>
+			      <li>[公告] 帮购及VIP服务调整2</li>
+			      <li>[公告] 帮购及VIP服务调整3</li>
+			      <li>[公告] 帮购及VIP服务调整4</li>
+			      <li>[公告] 帮购及VIP服务调整5</li>
+			      <li>[公告] 帮购及VIP服务调整6</li>
+			      <li>[公告] 帮购及VIP服务调整7</li>
+			      <li>[公告] 帮购及VIP服务调整8</li>
+			      <li>[公告] 帮购及VIP服务调整9</li>
+			      <li>[公告] 帮购及VIP服务调整10</li>
+			      <li>[公告] 帮购及VIP服务调整11</li>
+			      <li>[公告] 帮购及VIP服务调整12</li>
+			      <li>[公告] 帮购及VIP服务调整1</li>
+			      <li>[公告] 帮购及VIP服务调整2</li>
+			      <li>[公告] 帮购及VIP服务调整3</li>
+			      <li>[公告] 帮购及VIP服务调整4</li>
+			      <li>[公告] 帮购及VIP服务调整5</li>
+			      <li>[公告] 帮购及VIP服务调整6</li>
+			      <li>[公告] 帮购及VIP服务调整7</li>
+			      <li>[公告] 帮购及VIP服务调整8</li>
+			      <li>[公告] 帮购及VIP服务调整9</li>
+			      <li>[公告] 帮购及VIP服务调整10</li>
+			      <li>[公告] 帮购及VIP服务调整11</li>
+			      <li>[公告] 帮购及VIP服务调整12</li>
+			      <li>[公告] 帮购及VIP服务调整1</li>
+			      <li>[公告] 帮购及VIP服务调整2</li>
+			      <li>[公告] 帮购及VIP服务调整3</li>
+			      <li>[公告] 帮购及VIP服务调整4</li>
+			      <li>[公告] 帮购及VIP服务调整5</li>
+			      <li>[公告] 帮购及VIP服务调整6</li>
+			      <li>[公告] 帮购及VIP服务调整7</li>
+			      <li>[公告] 帮购及VIP服务调整8</li>
+			      <li>[公告] 帮购及VIP服务调整9</li>
+			      <li>[公告] 帮购及VIP服务调整10</li>
+			      <li>[公告] 帮购及VIP服务调整11</li>
+			      <li>[公告] 帮购及VIP服务调整12</li>
+			    </ul>
+			    <ul>
+			    </ul>
 			</div>
-			<div class="zuihou">
-				<div class="zuihou1">
-					<ul>
-						<li>首页</li>
-						<li>工商代理</li>
-						<li>财务代记账</li>
-						<li>企业贷款</li>
-						<li>办公室租赁</li>
-						<li>社保公积金代理</li>
-						<li style="background:none;">法律服务</li>
-						<p>© 2017-2018 中智信元有限公司 版权所有</p>
-					</ul>
+			<div style="background-color: blue; width: 210px;height: 190px;background-color: green;background: url(img/phone.png) no-repeat 0px 15px;">
+				<p style="width: 60px;height: 15px;font-size: 13px;margin-left: 40px;float: left;">话费充值</p>
+				<p style="width: 100px;height: 15px;font-size: 13px;color: red;float: left;">(可使用超级帮钻)</p>
+				<input type="text" name="" placeholder="请输入手机号" style="width: 125px;height: 20px;border: 1px grey solid;margin-left: 2px;">
+				<div style="width: 160px;height: 25px;">
+					<select id="province" size=1 onchange="getMoney()" style="float: left;margin-top: 5px;"> 
+						<option value= 10 >10</option> 
+						<option value= 30 >30</option> 
+						<option value= 50 >50</option>
+						<option value= 100 >100</option>
+					</select>
+					<p id="cc" style="float: left;margin-top: 0px;margin-left: 5px; width: 50px;height: 20px;"></p>
 				</div>
+				<p style="width: 180px;height: 25px;background-color: red;font-size: 15px;line-height: 25px;border-radius: 4px;text-align: center;"><a href="" style="text-decoration: none;color: white;">充值</a></p>
 			</div>
-	</body>
-	</html>
+
+		</div>
+		<div class="floatdiv" id="floatdiv">
+			<img  class="floats" src="img/consult-s.png">
+			<img class="floats" src="img/xiaobang.png">
+			<img class="floats" src="img/youhui.png">
+			<img class="floats" src="img/app.png">
+			<img class="floats" src="img/cart.png">
+			
+		</div>
+	</div>
+
+
+	<div class="list" style="background-color: #f8f7f6;height: 180px;width: 100%;">
+		<img src="img/loginB.jpg" style="margin-left: 70px;float: left;">
+		<ul style="width: 80px;height: 127px;float: left;margin-left: 70px;margin-top: 2px;list-style: none">
+			<li style="font-size: 17px;margin-left: -10px;">购物指南</li>
+			<li><a href="">如何下单</a></li>
+			<li><a href="">帮5购流程</a></li>
+			<li><a href="">订单查询</a></li>
+			<li><a href="">物流配送</a></li>
+		</ul>
+		<ul style="width: 80px;height: 127px;float: left;margin-left: 40px;margin-top: 2px;list-style: none">
+			<li style="font-size: 17px;margin-left: -10px;">支付相关</li>
+			<li><a href="">支付方式</a></li>
+			<li><a href="">安全设置</a></li>
+			<li><a href="">账户信息</a></li>
+		</ul>
+		<ul style="width: 80px;height: 127px;float: left;margin-left: 40px;margin-top: 2px;list-style: none">
+			<li style="font-size: 17px;margin-left: -10px;">售后服务</li>
+			<li><a href="">取消订单</a></li>
+			<li><a href="">申请售后</a></li>
+			<li><a href="">退货流程</a></li>
+			<li><a href="">退货相关</a></li>
+		</ul>
+		<ul style="width: 80px;height: 127px;float: left;margin-left: 40px;margin-top: 2px;list-style: none">
+			<li style="font-size: 17px;margin-left: -10px;">VIP服务</li>
+			<li><a href="">VIP优惠</a></li>
+			<li><a href="">如何成为VIP</a></li>
+			<li><a href="">超级帮钻</a></li>
+		</ul>
+		<ul style="width: 80px;height: 127px;float: left;margin-left: 40px;margin-top: 2px;list-style: none">
+			<li style="font-size: 17px;margin-left: -10px;">帮韩品</li>
+			<li><a href="">韩国正品</a></li>
+			<li><a href="">闪电发货</a></li>
+			<li><a href="">帮韩品售后</a></li>
+		</ul>
+		<ul style="width: 80px;height: 127px;float: left;margin-left: 40px;margin-top: 2px;list-style: none">
+			<li style="font-size: 17px;margin-left: -10px;">更多</li>
+			<li><a href="">手机及APP</a></li>
+			<li><a href="">帮5采APP</a></li>
+			<li><a href="">帮5淘插件</a></li>
+			<li><a href="">其他</a></li>
+		</ul>
+		<img src="img/erweima.jpg" style="margin-left: 50px;">
+	</div>
+
+	<div class="bottom" style="width: 100%;height: 163px;background-color: #f8f7f6">
+		<div style="width: 100%;height: 30px;">
+			<li style="margin-left: 120px;"><a href="">关于帮5买 &nbsp;</a></li>
+			<li><a href="">&nbsp| &nbsp 联系我们 &nbsp</a></li>
+			<li><a href="">&nbsp| &nbsp 合作商家 &nbsp</a></li>
+			<li><a href="">&nbsp| &nbsp 友情链接 &nbsp</a></li>
+			<li><a href=""> &nbsp| &nbsp 加入我们 &nbsp</a></li>
+			<li><a href=""> &nbsp| &nbsp 移动应用 &nbsp</a></li>
+			<li><a href=""> &nbsp| &nbsp 热门 &nbsp</a></li>
+			<li><a href=""> &nbsp| &nbsp 广告联盟 &nbsp</a></li>
+			<li><a href=""> &nbsp| &nbsp 使用条款 &nbsp</a></li>
+		</div>
+		<div style="color: grey;height: 20px;width: 800px;margin-left: 450px;font-size: 14px;margin-top: 5px;">Copyright @ 2011-2015B5M.COM.All rights served.Powered by B5Msoft Co.Ltd.
+		</div>
+		<div style="color: grey;width: 1300px;height: 20px;font-size: 14px;margin-left: 150px;margin-top: 5px;">
+			增值电信业务经营许可证：沪B2-20130065号|中华人民共和国互联网药品信息服务资格证书（沪）-非经营性-2013-0034 沪卫（中医）网审【2015】10032号沪ICP备11034776号-3|食品流通许可证：
+		</div>
+		<div style="color: grey;width: 100%;height: 20px;font-size: 14px;text-align: center;margin-top: 5px;">
+			SP310115240301755
+		</div>
+		<img style="margin-left: 300px;" src="img/bo1.gif">
+		<img src="img/bo2.png">
+		<img src="img/bo3.gif">
+		<img src="img/bo4.png">
+		<img src="img/bo5.png">
+		<img src="img/bo6.png">
+		<img src="img/bo7.png">
+	</div>
+
+
+<script type="text/javascript">
+	function getMoney()
+{    
+    var pro = document.getElementById("province");
+    var index=pro.selectedIndex;
+    for(var i=0;i<4;i++){
+        document.getElementById('cc').innerHTML='<p style="color: red;width: 50px;height: 25px;margin: 5px -10px 0px 0px;padding: 0;font-size: 15px;">'+'¥'+pro.options[index].value+'</p>';
+    }
+}
+
+function star(){
+	var cover=document.getElementsByClassName('boxx')[0];
+	window.onscroll=function(){
+		var st=document.documentElement.scrollTop || document.body.scrollTop;
+		if(st>120){
+			cover.style.position="fixed";
+		}else{
+			cover.style.position="static";
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+ /**
+     *
+     * @param id  传入元素的id
+     * @returns {HTMLElement | null}  返回标签对象，方便获取元素
+     */
+    function my$(id) {
+        return document.getElementById(id);
+    }
+ 
+    //获取各元素，方便操作
+    var box=my$("box");
+    var inner=box.children[0];
+    var ulObj=inner.children[0];
+    var list=ulObj.children;
+    var olObj=inner.children[1];
+    var arr=my$("arr");
+    var imgWidth=inner.offsetWidth;
+    var right=my$("right");
+    var pic=0;
+    //根据li个数，创建小按钮
+    for(var i=0;i<list.length;i++){
+        var liObj=document.createElement("li");
+ 
+        olObj.appendChild(liObj);
+        liObj.innerText=(i+1);
+        liObj.setAttribute("index",i);
+ 
+        //为按钮注册mouseover事件
+        liObj.onmouseover=function () {
+            //先清除所有按钮的样式
+ 
+            for (var j=0;j<olObj.children.length;j++){
+                olObj.children[j].removeAttribute("class");
+            }
+            this.className="current";
+            pic=this.getAttribute("index");
+            animate(ulObj,(-pic*imgWidth)-40);
+        }
+ 
+    }
+ 
+ 
+    //设置ol中第一个li有背景颜色
+    olObj.children[0].className = "current";
+    //克隆一个ul中第一个li,加入到ul中的最后=====克隆
+    ulObj.appendChild(ulObj.children[0].cloneNode(true));
+ 
+    var timeId=setInterval(onmouseclickHandle,1000);
+    //左右焦点实现点击切换图片功能
+    box.onmouseover=function () {
+        arr.style.display="block";
+        clearInterval(timeId);
+    };
+    box.onmouseout=function () {
+        arr.style.display="none";
+        timeId=setInterval(onmouseclickHandle,1000);
+    };
+ 
+    right.onclick=onmouseclickHandle;
+    function onmouseclickHandle() {
+        //如果pic的值是5,恰巧是ul中li的个数-1的值,此时页面显示第六个图片,而用户会认为这是第一个图,
+        //所以,如果用户再次点击按钮,用户应该看到第二个图片
+        if (pic == list.length - 1) {
+            //如何从第6个图,跳转到第一个图
+            pic = 0;//先设置pic=0
+            ulObj.style.left = 0 + "px";//把ul的位置还原成开始的默认位置
+        }
+        pic++;//立刻设置pic加1,那么此时用户就会看到第二个图片了
+        animate(ulObj, (-pic * imgWidth)-40);//pic从0的值加1之后,pic的值是1,然后ul移动出去一个图片
+        //如果pic==5说明,此时显示第6个图(内容是第一张图片),第一个小按钮有颜色,
+        if (pic == list.length - 1) {
+            //第五个按钮颜色干掉
+            olObj.children[olObj.children.length - 1].className = "";
+            //第一个按钮颜色设置上
+            olObj.children[0].className = "current";
+        } else {
+            //干掉所有的小按钮的背景颜色
+            for (var i = 0; i < olObj.children.length; i++) {
+                olObj.children[i].removeAttribute("class");
+            }
+            olObj.children[pic].className = "current";
+        }
+    }
+    left.onclick=function () {
+        if (pic==0){
+            pic=list.length-1;
+            ulObj.style.left=-pic*imgWidth+"px";
+        }
+        pic--;
+        animate(ulObj,(-pic*imgWidth)-40);
+        for (var i = 0; i < olObj.children.length; i++) {
+            olObj.children[i].removeAttribute("class");
+        }
+        //当前的pic索引对应的按钮设置颜色
+        olObj.children[pic].className = "current";
+    };
+    
+    //设置任意的一个元素,移动到指定的目标位置
+    function animate(element, target) {
+        clearInterval(element.timeId);
+        //定时器的id值存储到对象的一个属性中
+        element.timeId = setInterval(function () {
+            //获取元素的当前的位置,数字类型
+            var current = element.offsetLeft;
+            //每次移动的距离
+            var step = 45;
+            step = current < target ? step : -step;
+            //当前移动到位置
+            current += step;
+            if (Math.abs(current - target) > Math.abs(step)) {
+                element.style.left = current + "px";
+            } else {
+                //清理定时器
+                clearInterval(element.timeId);
+                //直接到达目标
+                element.style.left = target + "px";
+            }
+        }, 30);
+    }
+
+//滚动条
+var box = document.getElementById('scroll-box')
+var parent = document.getElementsByTagName('ul')[0]
+var parent2 = document.getElementsByTagName('ul')[1]
+parent2.innerHTML = parent.innerHTML
+     var timer = setInterval(autoScrollLine,30)
+  function autoScrollLine() {
+    if(box.scrollTop>=parent.offsetHeight){
+    box.scrollTop=0;
+    }else{
+     box.scrollTop++;
+    }
+      if(box.scrollTop%box.offsetHeight==0){
+    clearInterval(timer)
+    setTimeout(()=>{
+        timer = setInterval(autoScrollLine,30)
+    },100)
+    }
+}
+	var dic=document.getElementById("floatdiv")
+	for(var i=0;i<dic.children.length;i++){
+		
+			dic.children[i].onmouseover=function(){
+			this.className='newfloat';
+			}
+			dic.children[i].onmouseout=function(){
+				this.className='floats';
+			}
+		}
+		
+	
+
+
+
+
+
+</script>
+</body>
+</html>
