@@ -1,0 +1,187 @@
+#cover{
+	height: 120px;
+	background-color: white;
+	width: 100%;
+	border: 1px white solid;
+	z-index: 9999;
+	margin-top: -10px;
+}
+.bang{
+	height: 15px;
+	width: 100px;
+	margin-left: 70px;
+	float: left;
+	font-size: 15px;
+	margin-top: 0px;
+	color: grey;
+}
+
+.hot li{
+	float: left;
+	list-style: none;
+	width: 120px;
+	height: 50px;
+	display: block;
+}
+.hot li a{
+	text-decoration: none;
+	text-align: center;
+	line-height: 50px;
+	color: black;
+}
+.hot li a:hover{
+	color: grey;
+}
+
+.longlist li{
+	width: 36px;
+	height: 32px;
+	list-style: none;
+	font-size: 10px;
+	line-height: 30px;
+	text-align: center;
+}
+.longlist ul{
+	width: 36px;
+	height: 425px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-top: 9px;
+	padding: 0px 0px 0px 0px;
+	float: left;
+}
+
+
+/*轮播*/
+	
+.box {
+    width: 810px;
+    height: 346px;
+    border: 1px solid #ccc;
+}
+.inner{
+    width: 810px;
+    height: 362px;
+    position: relative;
+    overflow: hidden;
+    margin-top: -16px;
+}
+.inner img{
+    width: 810px;
+    height: 361px;
+ 
+}
+.lun{
+	left: -40px;
+}
+ul {
+    width: 1000%;
+    position: relative;
+    list-style: none;
+    left: 0;
+    top: 0;
+}
+.inner li{
+    float: left;
+}
+
+ol {
+    position: absolute;
+    height: 20px;
+    right: 20px;
+    bottom: 20px;
+    text-align: center;
+    padding: 0px;
+    margin-right: 300px;
+}
+ol li{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    background-color: white;
+    margin: 1px;
+    cursor: pointer;
+		border-radius: 10px;
+		margin-left: 8px;
+}
+li.current{
+    background-color: red;
+}
+#arr{
+    display: none;
+}
+#arr span{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 5px;
+    top: 50%;
+    margin-top: -20px;
+    background: red;
+    cursor: pointer;
+    line-height: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-family: '黑体';
+    font-size: 30px;
+    color: #000;
+    opacity: 0.5;
+    border: 1px solid #fff;
+}
+#arr #right {
+    right: 5px;
+    left: auto;
+}
+
+/*轮播*/
+.floatdiv{
+    width:449px;height: 500px;
+    float: left;
+    overflow: hidden;
+}
+
+
+/*滚动条*/
+      #scroll-box{
+        width: 210px;
+        height: 310px;
+        overflow:hidden;
+      }
+      #scroll-box ul{margin: 0}
+      #scroll-box  li{
+        color: red;
+        list-style: none;
+        font-size: 14px;
+        line-height: 20px;
+        height: 30px;
+        margin-left: -20px;
+      }
+
+
+
+
+
+
+
+
+.list li{
+	font-size: 13px;
+	margin-left: -10px;
+	margin-top: 5px;
+}
+.list li a{
+	text-decoration: none;
+	color: grey;
+}
+.bottom li{
+	font-size: 15px;
+	float: left;
+	list-style: none;
+	color: black;
+}
+.bottom li a{
+	text-decoration: none;
+	color: black;
+}
